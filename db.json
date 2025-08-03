@@ -1,0 +1,167 @@
+{
+  "brands": [
+    {
+      "id": "1",
+      "name": "Sony"
+    },
+    {
+      "id": "2",
+      "name": "Samsung"
+    },
+    {
+      "id": "3",
+      "name": "Apple"
+    },
+    {
+      "id": "4",
+      "name": "Dell"
+    },
+    {
+      "id": "5",
+      "name": "HP"
+    },
+    {
+      "id": "ffce",
+      "name": "Xiaomi"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Mouse",
+      "details": "Ergonomic 2.4GHz wireless mouse",
+      "brandId": "B001",
+      "purchasePrice": 300,
+      "salePrice": 500,
+      "availableQuantity": 50
+    },
+    {
+      "id": "2",
+      "name": "Mechanical Keyboard",
+      "details": "RGB backlit mechanical keyboard with blue switches",
+      "brandId": "B002",
+      "purchasePrice": 1200,
+      "salePrice": 1800,
+      "availableQuantity": 20
+    },
+    {
+      "id": "3",
+      "name": "USB-C Charger",
+      "details": "65W fast charger with USB-C output",
+      "brandId": "B003",
+      "purchasePrice": 800,
+      "salePrice": 1200,
+      "availableQuantity": 35
+    },
+    {
+      "id": "4",
+      "name": "Bluetooth Speaker",
+      "details": "Portable waterproof Bluetooth speaker",
+      "brandId": "B004",
+      "purchasePrice": 1500,
+      "salePrice": 2200,
+      "availableQuantity": 15
+    },
+    {
+      "id": "5",
+      "name": "Webcam",
+      "details": "Full HD 1080p webcam with built-in microphone",
+      "brandId": "B005",
+      "purchasePrice": 900,
+      "salePrice": 1500,
+      "availableQuantity": 25
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "orderNo": "ORD001",
+      "productId": 1,
+      "quantity": 2,
+      "salePrice": 500,
+      "discount": 50,
+      "totalAmount": 950
+    },
+    {
+      "id": "2",
+      "orderNo": "ORD002",
+      "productId": 2,
+      "quantity": 1,
+      "salePrice": 1800,
+      "discount": 0,
+      "totalAmount": 1800
+    },
+    {
+      "id": "3",
+      "orderNo": "ORD003",
+      "productId": 3,
+      "quantity": 3,
+      "salePrice": 1200,
+      "discount": 100,
+      "totalAmount": 3500
+    },
+    {
+      "id": "4",
+      "orderNo": "ORD004",
+      "productId": 4,
+      "quantity": 1,
+      "salePrice": 2200,
+      "discount": 200,
+      "totalAmount": 2000
+    },
+    {
+      "id": "5",
+      "orderNo": "ORD005",
+      "productId": 5,
+      "quantity": 2,
+      "salePrice": 1500,
+      "discount": 150,
+      "totalAmount": 2850
+    },
+    {
+      "id": "6",
+      "orderNo": "ORD006",
+      "productId": 1,
+      "quantity": 4,
+      "salePrice": 500,
+      "discount": 100,
+      "totalAmount": 1900
+    },
+    {
+      "id": "7",
+      "orderNo": "ORD007",
+      "productId": 2,
+      "quantity": 2,
+      "salePrice": 1800,
+      "discount": 300,
+      "totalAmount": 3300
+    },
+    {
+      "id": "8",
+      "orderNo": "ORD008",
+      "productId": 3,
+      "quantity": 1,
+      "salePrice": 1200,
+      "discount": 0,
+      "totalAmount": 1200
+    },
+    {
+      "id": "9",
+      "orderNo": "ORD009",
+      "productId": 4,
+      "quantity": 3,
+      "salePrice": 2200,
+      "discount": 400,
+      "totalAmount": 6200
+    },
+    {
+      "id": "10",
+      "orderNo": "ORD010",
+      "productId": 5,
+      "quantity": 1,
+      "salePrice": 1500,
+      "discount": 100,
+      "totalAmount": 1400
+    }
+  ]
+}

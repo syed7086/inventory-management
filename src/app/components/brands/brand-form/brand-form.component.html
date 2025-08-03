@@ -1,0 +1,30 @@
+<div class="flex justify-center">
+  <form class="w-[600px] bg-white shadow border p-8">
+    <mat-label class="text-2xl">Brand Name</mat-label>
+    <mat-form-field class="w-full">
+      <input
+        type="text"
+        matInput
+        placeholder="Eg. Any Brand"
+        name="name"
+        [(ngModel)]="name"
+      />
+    </mat-form-field>
+
+    <!-- Conditional buttons when brand has a defined value it would know that it need to use the update brand. -->
+    @if(brand){
+    <div class="w-full flex justify-center">
+      <button mat-raised-button (click)="updateBrand()">Update</button>
+    </div>
+    } @else {
+    <div class="w-full flex justify-center">
+      <button mat-raised-button (click)="addBrand()">Add</button>
+    </div>
+    }
+  </form>
+</div>
+
+<!-- <mat-form-field appearance="out" class="w-full">
+      <mat-label>Brand Name</mat-label>
+      <input matInput placeholder="Eg. Sony" name = 'name' [(ngModel)]="name"/>
+    </mat-form-field> -->
