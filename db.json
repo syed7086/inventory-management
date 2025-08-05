@@ -70,6 +70,15 @@
       "purchasePrice": 900,
       "salePrice": 1500,
       "availableQuantity": 25
+    },
+    {
+      "id": "5f57",
+      "name": "iPhone 14",
+      "details": "Latest Apple smartphone with A15 Bionic chip",
+      "brandId": "3",
+      "purchasePrice": 75000,
+      "salePrice": 80000,
+      "availableQuantity": 25
     }
   ],
   "orders": [
