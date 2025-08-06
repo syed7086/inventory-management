@@ -20,4 +20,17 @@ export class ProductService {
       product
     );
   }
+
+  getProductId(productId: string) {
+    return this.httpClient.get<Product>(
+      environment.apiUrl + '/products/' + productId
+    );
+  }
+
+  updateProduct(productId: string, product: Product) {
+    return this.httpClient.put<Product>(
+      environment.apiUrl + '/products/' + productId,
+      product
+    );
+  }
 }

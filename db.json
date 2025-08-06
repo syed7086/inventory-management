@@ -27,13 +27,13 @@
   ],
   "products": [
     {
-      "id": "1",
       "name": "Wireless Mouse",
       "details": "Ergonomic 2.4GHz wireless mouse",
       "brandId": "B001",
-      "purchasePrice": 300,
+      "purchasePrice": 250,
       "salePrice": 500,
-      "availableQuantity": 50
+      "availableQuantity": 50,
+      "id": "1"
     },
     {
       "id": "2",

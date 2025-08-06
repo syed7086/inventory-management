@@ -35,6 +35,8 @@ export class ProductsComponent {
     'details',
     'purchasePrice',
     'salePrice',
+    'availableQuantity',
+    'action',
   ];
 
   ngOnInit() {

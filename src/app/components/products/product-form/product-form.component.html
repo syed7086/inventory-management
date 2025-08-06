@@ -1,6 +1,12 @@
 <div class="flex justify-center">
   <form [formGroup]="productForm" class="bg-white w-[600px] shadow border p-8">
+    @if(product){
+
+    <h1 class="font-semibold text-2xl flex justify-center">Update Product</h1>
+    }@else {
+
     <h1 class="font-semibold text-2xl flex justify-center">Add Product</h1>
+    }
     <div class="flex flex-wrap">
       <div class="w-full">
         <mat-label>Product Name</mat-label>
@@ -37,9 +43,17 @@
           <input type="number" matInput formControlName="availableQuantity" />
         </mat-form-field>
       </div>
+      @if(product){
+      <div class="w-full flex justify-center">
+        <button mat-raised-button (click)="updateProduct()">Update Product</button>
+      </div>
+
+      }@else {
+
       <div class="w-full flex justify-center">
         <button mat-raised-button (click)="addProduct()">Add Product</button>
       </div>
+      }
     </div>
   </form>
 </div>
