@@ -1,59 +1,56 @@
-# InventoryManagement
+# 📦 Inventory Management System
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+A simple Inventory Management System built with **Angular** and **JSON Server** to manage products, brands, and categories. This project implements **CRUD operations**, uses **Reactive Forms**, and is styled using **Angular Material**.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🛠️ Tech Stack
 
-```bash
-ng serve
-```
+- **Frontend**: Angular 17+
+- **UI Components**: Angular Material
+- **Backend (Mock API)**: JSON Server
+- **Forms**: Reactive Forms
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## ✨ Features
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- ✅ Create, Read, Update, Delete Products
+- ✅ Dropdowns using Angular Material (`mat-select`)
+- ✅ Integration with mock backend (JSON Server)
+- ✅ Form validation and form groups using FormBuilder
+- ✅ Modular folder structure
+- ✅ Fully responsive UI
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📁 Project Structure
+inventory-app/
+├── src/
+│ ├── app/
+│ │ ├── components/ # Angular components
+│ │ ├── services/ # API service layer
+│ │ ├── models/ # Interfaces/models
+│ │ └── app.module.ts # Root module
+├── db.json # JSON Server mock database
 
-```bash
-ng generate --help
-```
 
-## Building
+---
 
-To build the project run:
+## 🚀 Getting Started
 
-```bash
-ng build
-```
+### Prerequisites
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- Node.js and npm
+- Angular CLI (`npm install -g @angular/cli`)
+- JSON Server (`npm install -g json-server`)
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### 🔧 Setup Instructions
 
-```bash
-ng test
-```
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/inventory-app.git
+   cd inventory-app
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
