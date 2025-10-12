@@ -2,16 +2,6 @@
 
 A simple Inventory Management System built with **Angular** and **JSON Server** to manage products, brands, and categories. This project implements **CRUD operations**, uses **Reactive Forms**, and is styled using **Angular Material**.
 
----
-
-## 🛠️ Tech Stack
-
-- **Frontend**: Angular 17+
-- **UI Components**: Angular Material
-- **Backend (Mock API)**: JSON Server
-- **Forms**: Reactive Forms
-
----
 
 ## ✨ Features
 
@@ -28,29 +18,11 @@ A simple Inventory Management System built with **Angular** and **JSON Server** 
 inventory-app/
 ├── src/
 │ ├── app/
-│ │ ├── components/ # Angular components
-│ │ ├── services/ # API service layer
-│ │ ├── models/ # Interfaces/models
-│ │ └── app.module.ts # Root module
-├── db.json # JSON Server mock database
+│ │ ├── components/ 
+│ │ ├── services/ 
+│ │ ├── models/ 
+│ │ └── app.module.ts 
+├── db.json 
 
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js and npm
-- Angular CLI (`npm install -g @angular/cli`)
-- JSON Server (`npm install -g json-server`)
-
----
-
-### 🔧 Setup Instructions
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/inventory-app.git
-   cd inventory-app
 
